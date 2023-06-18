@@ -1,5 +1,4 @@
 # Flipped Firmware
-
 # How to install (Windows)
 **1.** Open Windows Powershell.
 
