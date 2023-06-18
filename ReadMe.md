@@ -1,7 +1,7 @@
 # Flipped Firmware
 
 # How to install (Windows)
-**1.** Open Windows Powershell.
+**1.** Open Windows Powershell.\n
 **2.** In Powershell, run `git`. If this errors, you need to run `winget install -e --id Git.Git` instead.
 **3.** In Powershell, run `git clone https://github.com/BenPI88/flipped-firmware`
 **4.** Exit Powershell.
