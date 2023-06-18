@@ -7,5 +7,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Run
-        working-directory: .
-        run: fbt.cmd icons proto dolphin_internal dolphin_ext resources
+        shell: pwsh
+        run: ./compile.ps1
