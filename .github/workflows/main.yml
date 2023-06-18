@@ -1,0 +1,11 @@
+name: Compile Backgrounds
+on: push
+
+jobs:
+  pester-test:
+    name: Compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run
+        shell: pwsh
+        run: ./fbt icons proto dolphin_internal dolphin_ext resources
