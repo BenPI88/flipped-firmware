@@ -4,8 +4,8 @@ on: push
 jobs:
   pester-test:
     name: Compile
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Run
         shell: pwsh
-        run: ./compile.ps1
+        run: ./fbt icons proto dolphin_internal dolphin_ext resources
