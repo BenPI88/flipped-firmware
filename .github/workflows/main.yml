@@ -7,5 +7,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Run
-        shell: pwsh
-        run: ls | echo
+        run: fbt.cmd icons proto dolphin_internal dolphin_ext resources
