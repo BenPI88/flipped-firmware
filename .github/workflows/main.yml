@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Run
         shell: pwsh
-        run: ls
+        run: ./fbt icons proto dolphin_internal dolphin_ext resources
